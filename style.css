@@ -1,0 +1,268 @@
+body {
+  background-color: #f2f4f6;
+  padding-bottom: 100px;
+}
+
+.footer {
+  height: 50px;
+}
+
+img,
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.div-hist {
+  max-width: 400px;
+  margin: 40px auto 0 auto;
+}
+
+.img-hist {
+  width: 400px;
+}
+
+h1,
+p,
+h2,
+ul,
+li,
+a,
+span,
+div,
+h3,
+img,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  font-family: "Poetsen One", sans-serif;
+  color: #1ee3cf;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #6b48ff;
+  font-size: 1.25rem;
+}
+
+.header {
+  height: 250px;
+  font-family: "Poetsen One", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.home {
+  width: 3rem;
+  margin: 32px;
+  background-color: #1f1f1f;
+  border-radius: 25%;
+}
+
+.orang {
+  background: url(./img/orangutango.webp) center;
+}
+
+.header-title {
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: #1f1f1f;
+  max-width: 800px;
+  font-size: 4rem;
+  color: #0d3f67;
+}
+
+.intro-title,
+.filmes-title,
+.turing-title {
+  font-size: 3rem;
+  max-width: 800px;
+  margin: 60px auto 20px auto;
+}
+
+.intro-text,
+.intro-text-item {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.intro-text-item {
+  margin: 0 auto;
+}
+
+.turing-text {
+  max-width: 800px;
+  margin: 0px auto 60px auto;
+}
+
+.turing-conversa {
+  max-width: 800px;
+  margin: 10px auto 0 auto;
+}
+
+.div-conversa {
+  max-width: 800px;
+  margin: 60px auto 0 auto;
+}
+
+.content-title,
+.compre-title,
+.linha-title {
+  font-size: 3rem;
+  max-width: 800px;
+  margin: 0px auto 20px auto;
+}
+
+.linha-title {
+  margin-top: 40px;
+}
+
+.content-title {
+  margin-top: 60px;
+}
+
+.linha-li {
+  border-radius: 8px;
+  border: 2px solid #d4d4d4;
+  padding: 16px;
+}
+
+.content-item {
+  padding: 16px;
+}
+
+.computaria {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+  border-radius: 8px;
+  border: 2px solid #d4d4d4;
+}
+
+.computaria:hover {
+  border: 2px solid #1f1f1f;
+}
+
+.computaria-img {
+  grid-row: span 2;
+  height: 200px;
+}
+
+.computaria-img img {
+  border-radius: 6px 0 0 6px;
+}
+
+.computaria-title {
+  padding-top: 20px;
+  font-size: 2.5rem;
+}
+
+.linha-li + .linha-li {
+  margin-top: 20px;
+}
+
+.linha-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.linha-item {
+  padding-left: 40px;
+}
+
+.linha-videos,
+.doc-div {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.linha-video,
+.doc-yt {
+  margin-top: 40px;
+  width: 560px;
+  height: 315px;
+}
+
+.filmes-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.filmes-item + .filmes-item {
+  margin-top: 40px;
+}
+
+.filmes-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+
+.filme-img {
+  height: 400px;
+  justify-self: center;
+  grid-row: span 3;
+}
+
+.filme-nome {
+  font-size: 3rem;
+  align-self: end;
+}
+
+.filme-lugar {
+  grid-column: 2;
+  align-self: end;
+}
+
+.compre-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-content: center;
+}
+
+.compre-vid {
+  grid-column: span 2;
+  height: 450px;
+}
+
+.compre-item {
+  padding: 8px;
+}
+
+.compre-preco {
+  align-self: center;
+  justify-self: center;
+}
+
+.btn {
+  display: block;
+  text-transform: uppercase;
+  background-color: #6b48ff;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding: 12px;
+  border-radius: 6px;
+  grid-column: 2;
+  align-self: start;
+  justify-self: start;
+}
